@@ -7,13 +7,22 @@ padding:0;
 body{
 
 background-color:gray;
-
+margin: 48px 0 0 0;
 
 }
 
 header{
 background-color:lime;
-
+position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+}
+#main{
+ background-color:white;
+  width:calc(100%-200%);
+  min-width:500px;
+  float:left;
 }
 #main1{
 background-color:aqua;
@@ -24,7 +33,16 @@ background-color:pink;
 width:500px;
   float:left;
 }
-
+.box{
+ background-color:red;
+  color:black;
+  width:240px;
+  height:80px;
+  margin:5px;
+  float:left;
+  overflow:hidden;
+  
+}
 aside{
 background-color:ivory;
 width:200px;
