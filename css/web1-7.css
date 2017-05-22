@@ -18,6 +18,13 @@ position:fixed;
   top:0;
   width:100%;
 }
+#good{
+ width:24px;
+  position:absolute;
+  left:50px;
+  top:50px;
+  
+}
 #main{
  background-color:white;
   width:calc(100%-200%);
@@ -47,6 +54,9 @@ aside{
 background-color:ivory;
 width:200px;
   float:right;
+  position:relative;
+  top:20px;
+  right:10px;
 }
 
 footer{
